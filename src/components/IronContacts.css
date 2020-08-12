@@ -1,0 +1,64 @@
+.width {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.table {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  background-color: rgba(95, 58, 138, 0.158);
+  padding: 3px 15vmin;
+  margin: 5px 0px;
+  border: 1px solid #7f47be38;
+  box-shadow: 3px 3px 3px 3px #6e17c04f;
+}
+
+.header {
+  color: white;
+  background-color: rgb(65, 41, 153);
+  border: 2px solid rgb(111, 0, 255);
+  padding: 0.2em 18em 0.2em 8.5em;
+  max-width: 200vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3em;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5em;
+}
+.details td {
+  margin: 0 30px;
+}
+
+.btn {
+  color: white;
+  border-radius: 15%;
+  background-color: rgb(65, 41, 153);
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+  padding: 5px 10px;
+}
+
+button {
+  border-radius: 30px;
+  background-color: white;
+  color: rgb(65, 41, 153);
+  max-width: 500px;
+  margin: 3px 30px;
+  padding: 5px 15px;
+  font-size: 1.5em;
+  border: 3px solid rgb(65, 41, 153);
+}
+.difbtn {
+  padding: 5px 50px;
+}
